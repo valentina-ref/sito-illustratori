@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+
+body {
+    margin: 0;
+    background-color: #fffbcf;
+    font-family: 'Archivo', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+
+.navigazione, a{
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navigazione a:hover{
+    color: white;
+    }
+
+
+
+.navigazione li{
+    display: inline-block;
+    padding: 5px 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ADDF86;
+    position: fixed;
+    width: 100%;
+  
+  
+}
+
+header p{ 
+    padding: 5px 30px; 
+    font-size: 27px;
+    font-weight: bold;
+}
+
+
+
+section.hero h1 {
+    text-align: center;
+    margin: 0;
+    padding: 40px 10px;
+    font-size: 36px;
+    padding-top: 135px;
+   
+}
+
+div.galleria{
+    text-align: center;
+    padding-top: 50px;
+    
+    
+}
+
+div.bio {
+    max-width: 100%;
+    background-color: #ADDF86;
+    padding: 20px 30px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-size: 17px;
+    
+    
+}
+
+div.bio {
+   line-height: 1.5rem;
+   margin-bottom: 1.5rem;
+}
+
+div.illustrazioni{
+    background-color: #fffbcf;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin: auto;
+    padding: 90px 0;
+    justify-content: center;
+}
+
+div.card {
+    margin: auto;
+}
+
+   .navfooter li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+    
+}
+
+
+   footer {
+    padding: 5px 30px;
+    display: flex;
+    justify-content: end;
+    background-color: #ADDF86;
+   }
+   
+   footer p{
+    padding-top: 5px;
+   }
+
+
+
+
+   /* css pagina index */
+
+div.contenuti{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px;
+    margin: auto;
+    padding: 90px 0;
+    justify-content: center; 
+}
+
+div.contenuti h2{
+    text-align: center;
+}
+
+div.sezione1 {
+    text-align: center; 
+    padding-top: 70px; 
+}
+
+section.hero img{
+    padding-top: 75px;
+    width: 100%;
+}
+
+ .navigazione1 li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 30px;
+ }
+
+ .navigazione1 a:hover{
+    color: white;
+ }
+
+
+
+
+ /* css pagina chi siamo */
+
+
+ div.descrizione p{
+font-size: 32px;
+    padding: 90px ;
+ }
+
+
+
+
+ /* css pagina contatti*/
+
+ .contatti{
+    font-size: 32px;   
+ }
+ 
+
+ .città{
+    padding: 60px;
+ }
+
+
+
+ @media (max-width:700px) {
+
+  
+    header{
+    display: inline-block;
+    margin: auto;
+    }
+
+    header p{
+        text-align: center;
+    }
+
+    .navigazione li{
+        
+        margin-left: 20px;
+    }
+    section.hero h1 {
+        padding-top: 175px;
+       
+    }
+
+    div.bio {
+        max-width: 100%;
+        background-color: #ADDF86;
+        padding: 20px 30px;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        
+        
+    }
+    
+    div.bio {
+       line-height: 1.5rem;
+       margin-bottom: 1.5rem;
+    }
+
+   
+    
+
+    div.illustrazioni{
+       
+        grid-template-columns: 1fr;
+    } 
+
+    section.hero img{
+        padding-top: 130px;
+        width: 100%;
+    }
+
+    div.contenuti{
+        grid-template-columns: 1fr;
+}
+
+div.sezione1 {
+   
+    padding-top: 100px; 
+}
+
+.navigazione1 li{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px 80px;
+ }
+ }
